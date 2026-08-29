@@ -1,10 +1,13 @@
 body {
-    background-color: #cbf0cb;
+    background-image: url(Images/hackerbg.jpeg);
+    min-height: 100vh;
+    margin: 0;
 }
 
 h1 {
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
 }
 
 h3 {
@@ -26,3 +29,7 @@ h3 {
 #linkHolder{
     text-align: center;
 }
+
+
+/*Everything below is for projects page*/
+
