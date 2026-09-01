@@ -9,9 +9,29 @@ body {
     background-repeat: no-repeat;
 }
 
+p {
+    text-align: center;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.textBox {
+    text-align: center;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: green;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(220, 255, 220);
+}
+
 h1 {
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
     color: aliceblue;
 }
 
@@ -29,18 +49,18 @@ h3 {
     border-radius: 10px;
     padding: 5px;
     background-color: rgb(220, 255, 220);
+    font-size: 19px;
 }
 
 #linkHolder{
     text-align: center;
 }
 
-#people{
+iframe {
     display: block;
-    text-align: center;
-    color: white;
-    font-size: xx-large;
-    position: relative;
+    color: green;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(220, 255, 220);
 }
-/*Everything below is for projects page*/
-
