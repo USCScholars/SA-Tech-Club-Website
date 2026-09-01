@@ -61,13 +61,11 @@ h3 {
 }
 
 iframe {
-    position: absolute;
     display: block;
     color: green;
     border: 2px solid green;
     border-radius: 10px;
     padding: 5px;
     background-color: rgb(220, 255, 220);
-    transform: translateX(50%);
     margin-inline: auto; 
 }
