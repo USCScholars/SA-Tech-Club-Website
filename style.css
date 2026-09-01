@@ -35,6 +35,12 @@ h3 {
     text-align: center;
 }
 
-
+#people{
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    position: relative;
+}
 /*Everything below is for projects page*/
 
