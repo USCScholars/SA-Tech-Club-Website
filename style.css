@@ -56,10 +56,6 @@ h3 {
     text-align: center;
 }
 
-.gameHolder {
-    position: relative;
-}
-
 iframe {
     display: block;
     color: green;
@@ -67,5 +63,4 @@ iframe {
     border-radius: 10px;
     padding: 5px;
     background-color: rgb(220, 255, 220);
-    margin-inline: auto; 
 }
