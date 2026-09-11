@@ -71,6 +71,10 @@ p {
     background-color: rgb(0, 6, 37);
     width: 40%;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .linksTextBox {
