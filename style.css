@@ -1,295 +1,298 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    background-image: url(Images/oligosaccharide.png);
-    background-color:rgb(40, 3, 202);
-    background-blend-mode: multiply;
-    background-size: 100;
-    background-position: center;
-    background-repeat: repeat;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-image: url(Images/oligosaccharide.png);
+  background-color: rgb(40, 3, 202);
+  background-blend-mode: multiply;
+  background-size: 100;
+  background-position: center;
+  background-repeat: repeat;
 }
 
 .pageLinks {
-    font-family: monospace;
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(175, 157, 241);
-    border: 2px solid rgb(121, 114, 228);
-    border-radius: 10px;
-    padding: 5px;
-    background-color: rgb(43, 3, 136);
-    font-size: 19px;
-    margin: 0 25px;
-    box-sizing: border-box;
-    width: 200px;
-    max-width: 100%;
+  font-family: monospace;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(175, 157, 241);
+  border: 2px solid rgb(121, 114, 228);
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(43, 3, 136);
+  font-size: 19px;
+  margin: 0 25px;
+  box-sizing: border-box;
+  width: 200px;
+  max-width: 100%;
 }
 
-.pageHeader{
-    text-align: center;
-    font-weight: bold;
-    font-family: monospace;
-    font-size: 25px;
-    color: rgba(102, 191, 250, 0.788);
-    border: 2px solid rgba(201, 189, 253, 0.568);
-    border-radius: 10px;
-    padding: 20px;
-    background-color: rgb(0, 6, 37);
-    display: block;
-    width: 30%;
-    max-width: 100%;
-    margin: 0 auto;
+.pageHeader {
+  text-align: center;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 25px;
+  color: rgba(102, 191, 250, 0.788);
+  border: 2px solid rgba(201, 189, 253, 0.568);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(0, 6, 37);
+  display: block;
+  width: 30%;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
-#linkHolder{
-    text-align: center;
-    font-weight: bold;
-    font-family: monospace;
-    border: 2px solid rgba(201, 189, 253, 0.568);
-    border-radius: 10px;
-    padding: 20px;
-    background-color: rgb(0, 6, 37);
-    width: 40%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
+#linkHolder {
+  text-align: center;
+  font-weight: bold;
+  font-family: monospace;
+  border: 2px solid rgba(201, 189, 253, 0.568);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(0, 6, 37);
+  width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .linksTextBox {
-    text-align: center;
-    font-weight: bold;
-    font-family: monospace;
-    font-size: 19px;
-    color: rgba(102, 191, 250, 0.788);
-    border: 2px solid rgba(201, 189, 253, 0.568);
-    border-radius: 10px;
-    padding: 20px;
-    background-color: rgb(0, 6, 37);
+  text-align: center;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 19px;
+  color: rgba(102, 191, 250, 0.788);
+  border: 2px solid rgba(201, 189, 253, 0.568);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(0, 6, 37);
 }
 
 .textBoxHome {
-    text-align: center;
-    font-weight: bold;
-    font-family: monospace;
-    font-size: 19px;
-    color: rgba(102, 191, 250, 0.788);
-    border: 2px solid rgba(201, 189, 253, 0.568);
-    border-radius: 10px;
-    padding: 20px;
-    background-color: rgb(0, 6, 37);
-    width: 100%;
-    max-width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 19px;
+  color: rgba(102, 191, 250, 0.788);
+  border: 2px solid rgba(201, 189, 253, 0.568);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(0, 6, 37);
+  width: 100%;
+  max-width: 100%;
+}
+
+li {
+  text-align: center;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 19px;
+  color: rgba(102, 191, 250, 0.788);
+  border: 2px solid rgba(201, 189, 253, 0.568);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(0, 6, 37);
 }
 
 #gooniustitle {
-    text-align: center;
-    font-weight: bold;
-    font-family: monospace;
-    font-size: 25px;
-    color: rgba(102, 191, 250, 0.788);
-    border: 2px solid rgba(201, 189, 253, 0.568);
-    border-radius: 10px;
-    padding: 20px;
-    background-color: rgb(0, 6, 37);
-    display: block;
-    width: 30%;
-    max-width: 100%;
-    margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 25px;
+  color: rgba(102, 191, 250, 0.788);
+  border: 2px solid rgba(201, 189, 253, 0.568);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(0, 6, 37);
+  display: block;
+  width: 30%;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .homePageLinks {
-    font-family: monospace;
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(175, 157, 241);
-    border: 2px solid rgb(121, 114, 228);
-    border-radius: 10px;
-    padding: 5px;
-    background-color: rgb(43, 3, 136);
-    font-size: 19px;
-    display: block;
-    margin: 0 auto;
-    box-sizing: border-box;
+  font-family: monospace;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(175, 157, 241);
+  border: 2px solid rgb(121, 114, 228);
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(43, 3, 136);
+  font-size: 19px;
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .cardhome {
-    text-align: center;
-    font-weight: bold;
-    font-family: monospace;
-    font-size: 19px;
-    color: rgba(102, 191, 250, 0.788);
-    border: 2px solid rgba(201, 189, 253, 0.568);
-    border-radius: 10px;
-    padding: 25px;
-    background-color: rgb(0, 6, 37);
+  text-align: center;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 19px;
+  color: rgba(102, 191, 250, 0.788);
+  border: 2px solid rgba(201, 189, 253, 0.568);
+  border-radius: 10px;
+  padding: 25px;
+  background-color: rgb(0, 6, 37);
 }
 
 .homeHeader {
-    text-align: center;
-    font-weight: bold;
-    font-family: monospace;
-    font-size: 19px;
-    color: rgba(102, 191, 250, 0.788);
-    border: 2px solid rgba(201, 189, 253, 0.568);
-    border-radius: 10px;
-    padding: 25px;
-    background-color: rgb(0, 6, 37);
-    width: 30%;
-    max-width: 100%;
-    margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 19px;
+  color: rgba(102, 191, 250, 0.788);
+  border: 2px solid rgba(201, 189, 253, 0.568);
+  border-radius: 10px;
+  padding: 25px;
+  background-color: rgb(0, 6, 37);
+  width: 30%;
+  max-width: 100%;
+  margin: auto;
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 50px;
 }
 
 #astoniusthegoon {
-    text-align: center;
-    font-weight: bold;
-    font-family: monospace;
-    font-size: 19px;
-    color: rgba(102, 191, 250, 0.788);
-    border: 2px solid rgba(201, 189, 253, 0.568);
-    border-radius: 10px;
-    padding: 20px;
-    background-color: rgba(0, 6, 37, 0.85);
-    width: 85%;
-    margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 19px;
+  color: rgba(102, 191, 250, 0.788);
+  border: 2px solid rgba(201, 189, 253, 0.568);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgba(0, 6, 37, 0.85);
+  width: 85%;
+  margin: auto;
 }
 
 .gameHolder {
-    margin: 0 auto 40px auto; 
-    width: 90%;
-    max-width: 450px;
-    aspect-ratio: 4 / 4.7;
-    border: 2px solid rgba(201, 189, 253, 0.568);
-    border-radius: 10px;
-    padding: 5px;
-    background-color: rgba(0, 6, 37, 0.85);
+  margin: 0 auto 40px auto;
+  width: 90%;
+  max-width: 450px;
+  aspect-ratio: 4 / 4.7;
+  border: 2px solid rgba(201, 189, 253, 0.568);
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgba(0, 6, 37, 0.85);
 }
 
-
 iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-    display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
 }
 
 .regCard {
-    text-align: center;
-    font-weight: bold;
-    font-family: monospace;
-    font-size: 19px;
-    color: rgba(102, 191, 250, 0.788);
-    border: 2px solid rgba(201, 189, 253, 0.568);
-    border-radius: 10px;
-    padding: 25px;
-    background-color: rgb(0, 6, 37);
-    width: 100%;
-    max-width: 100%;
-    margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 19px;
+  color: rgba(102, 191, 250, 0.788);
+  border: 2px solid rgba(201, 189, 253, 0.568);
+  border-radius: 10px;
+  padding: 25px;
+  background-color: rgb(0, 6, 37);
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
 }
 
 .regTextBox {
-    text-align: center;
-    font-weight: bold;
-    font-family: monospace;
-    font-size: 19px;
-    color: rgba(102, 191, 250, 0.788);
-    border: 2px solid rgba(201, 189, 253, 0.568);
-    border-radius: 10px;
-    padding: 20px;
-    background-color: rgb(0, 6, 37);
-    width: 100%;
-    max-width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 19px;
+  color: rgba(102, 191, 250, 0.788);
+  border: 2px solid rgba(201, 189, 253, 0.568);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(0, 6, 37);
+  width: 100%;
+  max-width: 100%;
 }
 
 .purposeCard {
-    text-align: center;
-    font-weight: bold;
-    font-family: monospace;
-    font-size: 19px;
-    color: rgba(102, 191, 250, 0.788);
-    border: 2px solid rgba(201, 189, 253, 0.568);
-    border-radius: 10px;
-    padding: 25px;
-    background-color: rgb(0, 6, 37);
-    flex: 1 1 calc(33.333% - 15px);
-    height: auto;
-    min-width: 0;
-    max-width: 100%;
-    box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 19px;
+  color: rgba(102, 191, 250, 0.788);
+  border: 2px solid rgba(201, 189, 253, 0.568);
+  border-radius: 10px;
+  padding: 25px;
+  background-color: rgb(0, 6, 37);
+  flex: 1 1 calc(33.333% - 15px);
+  height: auto;
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 #purposeHolder {
-    text-align: center;
-    font-weight: bold;
-    font-family: monospace;
-    border: 2px solid rgba(201, 189, 253, 0.568);
-    border-radius: 10px;
-    padding: 30px;
-    background-color: rgb(0, 6, 37);
-    width: 90%;
-    max-width: 1500px;
-    margin: 20px auto;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 25px;
+  text-align: center;
+  font-weight: bold;
+  font-family: monospace;
+  border: 2px solid rgba(201, 189, 253, 0.568);
+  border-radius: 10px;
+  padding: 30px;
+  background-color: rgb(0, 6, 37);
+  width: 90%;
+  max-width: 1500px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
 }
 
 #projectsHolder {
-    text-align: center;
-    font-weight: bold;
-    font-family: monospace;
-    border: 2px solid rgba(201, 189, 253, 0.568);
-    border-radius: 10px;
-    padding: 30px;
-    background-color: rgb(0, 6, 37);
-    width: 90%;
-    max-width: 900px;
-    margin: 20px auto;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-family: monospace;
+  border: 2px solid rgba(201, 189, 253, 0.568);
+  border-radius: 10px;
+  padding: 30px;
+  background-color: rgb(0, 6, 37);
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 50px;
 }
 
 @media (max-width: 768px) {
-    p, 
-    .pageHeader, 
-    #linkHolder, 
-    .linksTextBox, 
-    .textBoxHome, 
-    #gooniustitle, 
-    .homeHeader, 
-    .regCard, 
-    .regTextBox {
-        width: 92% !important;
-        margin: 15px auto !important; 
-    }
-
-    #linkHolder {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-    }
-
-    .pageLinks {
-        margin: 0 !important;
-        width: 100% !important;
-    }
+  p, .pageHeader, #linkHolder, .linksTextBox, .textBoxHome, #gooniustitle, .homeHeader, .regCard, .regTextBox {
+    width: 92% !important;
+    margin: 15px auto !important;
+  }
+  
+  #linkHolder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .pageLinks {
+    margin: 0 !important;
+    width: 100% !important;
+  }
 }
